@@ -1,0 +1,4 @@
+@font-face{font-family:__local__robotoLight;src:url('./robotoLight.ttf');}
+@font-face{font-family:__local__robotoMedium;src:url('./robotoMedium.ttf');}
+.vanta-canvas{position:absolute;top:0px;left:0px;width:100vw;height:100vh;}
+body{margin:0px;padding:0px;width:100vw;height:100vh;overflow:scroll;overflow-x:hidden;position:absolute;}
