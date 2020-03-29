@@ -7,7 +7,7 @@ var showText = function (target, message, index, interval) {
 }
 
 //the bit of text that comes before freshly printed lines on the webpage
-const NEW_LINE_HEADER_TEXT = '<a style = \'color:var(--termcolor-green);\'>visitor@katznboyz.com</a>:<a style = \'color:var(--termcolor-light-blue);\'>~/website</a>$';
+const NEW_LINE_HEADER_TEXT = '<a style = \'color:var(--termcolor-green);\'>visitor@' + String(document.domain) + '</a>:<a style = \'color:var(--termcolor-light-blue);\'>~/website</a>$';
 
 //the main html that will be displayed within the webpage (for colored text, <a> tags are used because they dont create a new line, unlike <p>)
 const MAIN_WEBSITE_HTML = `
